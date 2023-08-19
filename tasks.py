@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2023 The ibanez_ts9 developers. All rights reserved.
-# Project site: https://github.com/matthewrankin/ibanez_ts9
+# Copyright (c) 2023 The sdfascii-examples developers. All rights reserved.
+# Project site: https://github.com/matthewrankin/sdfascii-examples
 # Use of this source code is governed by a MIT-style license that
 # can be found in the LICENSE.txt file for the project.
 from invoke import run, task

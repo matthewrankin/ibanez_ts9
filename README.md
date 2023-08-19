@@ -1,4 +1,4 @@
-# Ibanez TS-9 Plot
+# sdfascii examples
 
 ## Development Setup
 
@@ -9,8 +9,8 @@ Use the following commands to create a Python virtualenv using [pyenv][] and
 the available [Invoke][] tasks.
 
 ```bash
-$ pyenv virtualenv 3.11 ibanez
-$ pyenv activate ibanez
+$ pyenv virtualenv 3.11 sdfexamples
+$ pyenv activate sdfexamples
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
 $ inv -l
@@ -18,11 +18,11 @@ $ inv -l
 
 ## License
 
-[ibanez_ts9][] is released under the MIT license. Please see the
+[sdfascii-examples][] is released under the MIT license. Please see the
 [LICENSE.txt][] file for more information.
 
-[ibanez_ts9]: https://github.com/matthewrankin/ibanez_ts9
+[sdfascii-examples]: https://github.com/matthewrankin/sdfascii-examples
 [invoke]: https://www.pyinvoke.org/
-[LICENSE.txt]: https://github.com/matthewrankin/ibanez_ts9/blob/master/LICENSE.txt
+[LICENSE.txt]: https://github.com/matthewrankin/sdfascii-examples/blob/master/LICENSE.txt
 [pyenv]: https://github.com/pyenv/pyenv
 [pyenv-virtualenv]: https://github.com/pyenv/pyenv-virtualenv
