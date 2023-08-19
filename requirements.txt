@@ -1,0 +1,8 @@
+flake8==6.1.0
+invoke==2.2.0
+matplotlib==3.7.2
+mypy==1.5.1
+pandas==2.0.3
+pip-chill==1.0.3
+sdfascii==0.8.2
+unipath==1.1
