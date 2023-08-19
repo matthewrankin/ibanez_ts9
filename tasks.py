@@ -33,17 +33,23 @@ def test(ctx):
 
 @task
 def min(ctx):
-    """Create the plot using example data from a FRTONMIN"""
+    """Create the plot using example data from FRTONMIN.DAT"""
     run("python create_plot.py inputs/FRTONMIN.DAT outputs/frtonmin.pdf")
 
 
 @task
 def mid(ctx):
-    """Create the plot using example data from a FRTONMID"""
+    """Create the plot using example data from FRTONMID.DAT"""
     run("python create_plot.py inputs/FRTONMID.DAT outputs/frtonmid.pdf")
 
 
 @task
 def max(ctx):
-    """Create the plot using example data from a FRTONMAX"""
+    """Create the plot using example data from FRTONMAX.DAT"""
     run("python create_plot.py inputs/FRTONMAX.DAT outputs/frtonmax.pdf")
+
+
+@task
+def plot1(ctx):
+    """Create the plot using example data from HP35670A.DAT"""
+    run("python create_plot.py inputs/HP35670A.DAT outputs/hp35670A.pdf")
